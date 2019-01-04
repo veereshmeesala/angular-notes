@@ -1,0 +1,38 @@
+
+<div class="row">
+<nav class="col-md-2 bg-light sidebar">
+  <div class="sidebar-sticky">
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link active" [routerLink]="[ '/angular/forms' ]">
+         Forms
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="[ '/angular/navigationandrouting' ]">
+         Navigation and Routing
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          Angular Modules
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          Services and Dependency Injection
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          
+          More on Components
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="col-md-10">
+    <router-outlet></router-outlet>
+</div>
+</div>
